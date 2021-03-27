@@ -38,8 +38,6 @@
     name: plexpy
     image: "tautulli/tautulli:latest"
     pull: yes
-    published_ports:
-      - "127.0.0.1:8181:8181"
     env:
       PUID: "{{ uid }}"
       PGID: "{{ gid }}"
